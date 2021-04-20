@@ -17,7 +17,7 @@ app.use(express.json());
 //http://localhost:3333/hello
 app.get("/hello", (req, res) => {
   console.log(req.query); //query string parameters
-  res.send("hello world");
+  res.send("hello world!");
 });
 
 //GET http://localhost:3003/hello/brian
